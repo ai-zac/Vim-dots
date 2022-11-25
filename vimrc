@@ -30,14 +30,12 @@
         Plug 'sheerun/vim-polyglot'
         Plug 'Rigellute/shades-of-purple.vim'
         Plug 'Yggdroot/indentLine'
-        Plug 'neoclide/coc.nvim', {'branch': 'release'}
     call plug#end()
     execute pathogen#infect()
     " END vim-plug
 " }}}
 
 " MAPPINGS --------------------------------------------------------------- {{{
-"CoCconfig
 
     " WhichKey
     nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
